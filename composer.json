@@ -1,0 +1,29 @@
+{
+    "name": "ijuniorfu/flysystem-oss",
+    "description": "This is a Flysystem adapter for the Aliyun OSS ^2.4",
+    "keywords": ["flysystem","aliyun","oss","AliyunOss"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ijuniorfu",
+            "email": "ijuniorfu@gmail.com",
+            "homepage": "https://github.com/ijuniorfu/flysystem-oss"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "league/flysystem": "~1.0",
+        "aliyuncs/oss-sdk-php": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Junior\\Flysystem\\AliyunOss\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
