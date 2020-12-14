@@ -1,6 +1,6 @@
 <?php
 
-namespace Aliyun\Flysystem\AliyunOss;
+namespace Junior\Flysystem\AliyunOss;
 
 use OSS\OssClient;
 use OSS\Core\OssException;
